@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MuteApp</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="welcome">Welcome to MuteApp</string>
+    <string name="please_sign_in">Please sign in to continue</string>
+    <string name="mute_button_description">Tap to mute/unmute device</string>
+    <string name="overlay_permission_required">Overlay permission is required for the floating button</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="permission_denied">Permission denied. App cannot function without overlay permission.</string>
+    <string name="volume_muted">Volume muted</string>
+    <string name="volume_unmuted">Volume unmuted</string>
+    <string name="triple_click_to_close">Triple click to close app</string>
+    <string name="default_web_client_id">your_web_client_id_here</string>
+</resources>
