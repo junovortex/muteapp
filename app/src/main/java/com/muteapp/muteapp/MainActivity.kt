@@ -34,8 +34,14 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "firebaseAuthWithGoogle:" + account.id)
             firebaseAuthWithGoogle(account.idToken!!)
         } catch (e: ApiException) {
-            Log.w(TAG, "Google sign in failed", e)
-            Toast.makeText(this, "Google sign in failed", Toast.LENGTH_SHORT).show()
+            Log.w(TAG, "Google sign in failed with code: ${e.statusCode}", e)
+            val errorMessage = when (e.statusCode) {
+                12501 -> "Sign in cancelled by user"
+                12502 -> "Sign in currently in progress"
+                12500 -> "Sign in failed - please try again"
+                else -> "Google sign in failed: ${e.message}"
+            }
+            Toast.makeText(this, errorMessage, Toast.LENGTH_LONG).show()
         }
     }
     

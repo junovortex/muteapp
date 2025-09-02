@@ -11,4 +11,7 @@
     <string name="volume_muted">Volume muted</string>
     <string name="volume_unmuted">Volume unmuted</string>
     <string name="triple_click_to_close">Triple click to close app</string>
+    
+    <!-- Google Sign-In Web Client ID -->
+    <string name="default_web_client_id">123456789012-zyxwvutsrqponmlkjihgfedcba654321.apps.googleusercontent.com</string>
 </resources>
