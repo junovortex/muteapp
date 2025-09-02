@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:background="@color/floating_button_background"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/floating_mute_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/mute_button_active"
+        android:contentDescription="@string/mute_button_description"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:src="@android:drawable/ic_lock_silent_mode_off" />
+
+</FrameLayout>

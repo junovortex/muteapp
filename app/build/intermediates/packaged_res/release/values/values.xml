@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="black">#FF000000</color>
+    <color name="floating_button_background">#80000000</color>
+    <color name="mute_button_active">#FF4CAF50</color>
+    <color name="mute_button_inactive">#FFF44336</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MuteApp</string>
+    <string name="default_web_client_id" translatable="false">123456789012-zyxwvutsrqponmlkjihgfedcba654321.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">123456789012</string>
+    <string name="google_api_key" translatable="false">AIzaSyAbCdEfGhIjKlMnOpQrStUvWxYz123456789</string>
+    <string name="google_app_id" translatable="false">1:123456789012:android:abcdef123456789</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAbCdEfGhIjKlMnOpQrStUvWxYz123456789</string>
+    <string name="google_storage_bucket" translatable="false">muteapp-project.appspot.com</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="mute_button_description">Tap to mute/unmute device</string>
+    <string name="overlay_permission_required">Overlay permission is required for the floating button</string>
+    <string name="permission_denied">Permission denied. App cannot function without overlay permission.</string>
+    <string name="please_sign_in">Please sign in to continue</string>
+    <string name="project_id" translatable="false">muteapp-project</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="triple_click_to_close">Triple click to close app</string>
+    <string name="volume_muted">Volume muted</string>
+    <string name="volume_unmuted">Volume unmuted</string>
+    <string name="welcome">Welcome to MuteApp</string>
+    <style name="Theme.MuteApp" parent="Theme.Material3.DayNight">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.muteapp.muteapp-mergeDebugResources-46:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.muteapp.muteapp-mergeDebugResources-45:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/res/values-watch-v20/values.xml",
+                    "source": "/Users/vinoth/.gradle/caches/transforms-3/f8e62241a74dee7b06a1affd6974abad/transformed/jetified-play-services-auth-20.6.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/vinoth/.gradle/caches/transforms-3/bdeda1861c24f334f42cde882e50a73c/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/Users/vinoth/.gradle/caches/transforms-3/5a6b4ad4ea3325413027cdc0b72cd8da/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

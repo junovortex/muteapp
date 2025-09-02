@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "com.muteapp.muteapp-mergeReleaseResources-46:/values-v16/values-v16.xml",
+            "outputFile": "com.muteapp.muteapp-mergeReleaseResources-45:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/vinoth/.gradle/caches/transforms-3/bdeda1861c24f334f42cde882e50a73c/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
+                    "source": "/Users/vinoth/.gradle/caches/transforms-3/5fb5586d02a052676cd0d82369a3a880/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/vinoth/.gradle/caches/transforms-3/5a6b4ad4ea3325413027cdc0b72cd8da/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

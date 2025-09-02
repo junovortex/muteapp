@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<incidents format="6" by="lint 7.4.2" type="incidents">
+<incidents format="6" by="lint 8.1.4" type="incidents">
 
     <incident
         id="HardcodedText"
@@ -42,10 +42,10 @@
             file="${:app*projectDir}/build.gradle"
             line="40"
             column="20"
-            startOffset="882"
+            startOffset="879"
             endLine="40"
             endColumn="51"
-            endOffset="913"/>
+            endOffset="910"/>
     </incident>
 
     <incident
@@ -61,10 +61,10 @@
             file="${:app*projectDir}/build.gradle"
             line="41"
             column="20"
-            startOffset="933"
+            startOffset="930"
             endLine="41"
             endColumn="56"
-            endOffset="969"/>
+            endOffset="966"/>
     </incident>
 
     <incident
@@ -80,10 +80,10 @@
             file="${:app*projectDir}/build.gradle"
             line="42"
             column="20"
-            startOffset="989"
+            startOffset="986"
             endLine="42"
             endColumn="64"
-            endOffset="1033"/>
+            endOffset="1030"/>
     </incident>
 
     <incident
@@ -99,10 +99,10 @@
             file="${:app*projectDir}/build.gradle"
             line="43"
             column="20"
-            startOffset="1053"
+            startOffset="1050"
             endLine="43"
             endColumn="70"
-            endOffset="1103"/>
+            endOffset="1100"/>
     </incident>
 
     <incident
@@ -118,10 +118,10 @@
             file="${:app*projectDir}/build.gradle"
             line="44"
             column="20"
-            startOffset="1123"
+            startOffset="1120"
             endLine="44"
             endColumn="69"
-            endOffset="1172"/>
+            endOffset="1169"/>
     </incident>
 
     <incident
@@ -137,10 +137,10 @@
             file="${:app*projectDir}/build.gradle"
             line="45"
             column="20"
-            startOffset="1192"
+            startOffset="1189"
             endLine="45"
             endColumn="70"
-            endOffset="1242"/>
+            endOffset="1239"/>
     </incident>
 
     <incident
@@ -156,10 +156,10 @@
             file="${:app*projectDir}/build.gradle"
             line="48"
             column="20"
-            startOffset="1289"
+            startOffset="1286"
             endLine="48"
             endColumn="70"
-            endOffset="1339"/>
+            endOffset="1336"/>
     </incident>
 
     <incident
@@ -175,10 +175,10 @@
             file="${:app*projectDir}/build.gradle"
             line="49"
             column="20"
-            startOffset="1359"
+            startOffset="1356"
             endLine="49"
             endColumn="62"
-            endOffset="1401"/>
+            endOffset="1398"/>
     </incident>
 
     <incident
@@ -194,10 +194,10 @@
             file="${:app*projectDir}/build.gradle"
             line="56"
             column="31"
-            startOffset="1655"
+            startOffset="1652"
             endLine="56"
             endColumn="62"
-            endOffset="1686"/>
+            endOffset="1683"/>
     </incident>
 
     <incident
@@ -213,24 +213,10 @@
             file="${:app*projectDir}/build.gradle"
             line="57"
             column="31"
-            startOffset="1717"
+            startOffset="1714"
             endLine="57"
             endColumn="75"
-            endOffset="1761"/>
-    </incident>
-
-    <incident
-        id="Overdraw"
-        severity="warning"
-        message="Possible overdraw: Root element paints background `@color/floating_button_background` with a theme that also paints a background (inferred theme is `@style/Theme.MuteApp`)">
-        <location
-            file="${:app*debug*sourceProvider*0*resDir*0}/layout/floating_button_layout.xml"
-            line="5"
-            column="5"
-            startOffset="182"
-            endLine="5"
-            endColumn="59"
-            endOffset="236"/>
+            endOffset="1758"/>
     </incident>
 
     <incident
@@ -245,6 +231,20 @@
             endLine="84"
             endColumn="95"
             endOffset="2958"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/floating_button_background` with a theme that also paints a background (inferred theme is `@style/Theme.MuteApp`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/floating_button_layout.xml"
+            line="5"
+            column="5"
+            startOffset="182"
+            endLine="5"
+            endColumn="59"
+            endOffset="236"/>
     </incident>
 
 </incidents>

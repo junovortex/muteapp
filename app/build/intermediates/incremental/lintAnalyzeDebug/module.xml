@@ -4,10 +4,10 @@
     name=":app"
     type="APP"
     maven="MuteApp:app:"
-    gradle="7.4.2"
+    agpVersion="8.1.4"
     buildFolder="build"
-    bootClassPath="/opt/homebrew/share/android-commandlinetools/platforms/android-34/android.jar:/opt/homebrew/share/android-commandlinetools/build-tools/30.0.3/core-lambda-stubs.jar"
-    javaSourceLevel="1.8"
+    bootClassPath="/opt/homebrew/share/android-commandlinetools/platforms/android-34/android.jar:/opt/homebrew/share/android-commandlinetools/build-tools/33.0.1/core-lambda-stubs.jar"
+    javaSourceLevel="17"
     compileTarget="android-34"
     neverShrinking="true">
   <lintOptions

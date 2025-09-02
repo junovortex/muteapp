@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<incidents format="6" by="lint 7.4.2" type="partial_results">
+<incidents format="6" by="lint 8.1.4" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.muteapp.muteapp.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
     <map id="UnusedResources">
         <location id="R.string.sign_in_with_google"
             file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"

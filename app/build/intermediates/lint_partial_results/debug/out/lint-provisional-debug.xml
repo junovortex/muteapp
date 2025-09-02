@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<incidents format="6" by="lint 7.4.2" type="conditional_incidents">
+<incidents format="6" by="lint 8.1.4" type="conditional_incidents">
 
     <incident
         id="ObsoleteSdkInt"
@@ -22,7 +22,7 @@
             endColumn="29"
             endOffset="1199"/>
         <map>
-            <condition minGE="31"/>
+            <condition minGE="ffffffffc0000000"/>
         </map>
     </incident>
 
@@ -47,7 +47,7 @@
             endColumn="64"
             endOffset="703"/>
         <map>
-            <condition minGE="21"/>
+            <condition minGE="fffffffffff00000"/>
         </map>
     </incident>
 
@@ -55,7 +55,7 @@
         id="InlinedApi"
         severity="warning"
         message="">
-        <fix-data requiresApi="23"/>
+        <fix-data minSdk="fffffffffff00000" requiresApi="ffffffffffc00000"/>
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/muteapp/muteapp/FloatingButtonService.kt"
             line="197"
@@ -65,12 +65,10 @@
             endColumn="47"
             endOffset="6983"/>
         <map>
-            <entry
-                name="minSdk"
-                int="21"/>
-            <entry
-                name="requiresApi"
-                int="23"/>
+            <api-levels id="minSdk"
+                value="fffffffffff00000"/>
+            <api-levels id="requiresApi"
+                value="ffffffffffc00000"/>
             <entry
                 name="message"
                 string="Field requires API level 23 (current min is %1$s): `android.media.AudioManager#ADJUST_UNMUTE`"/>
@@ -81,7 +79,7 @@
         id="InlinedApi"
         severity="warning"
         message="">
-        <fix-data requiresApi="23"/>
+        <fix-data minSdk="fffffffffff00000" requiresApi="ffffffffffc00000"/>
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/muteapp/muteapp/FloatingButtonService.kt"
             line="202"
@@ -91,12 +89,10 @@
             endColumn="47"
             endOffset="7166"/>
         <map>
-            <entry
-                name="minSdk"
-                int="21"/>
-            <entry
-                name="requiresApi"
-                int="23"/>
+            <api-levels id="minSdk"
+                value="fffffffffff00000"/>
+            <api-levels id="requiresApi"
+                value="ffffffffffc00000"/>
             <entry
                 name="message"
                 string="Field requires API level 23 (current min is %1$s): `android.media.AudioManager#ADJUST_UNMUTE`"/>
@@ -107,7 +103,7 @@
         id="InlinedApi"
         severity="warning"
         message="">
-        <fix-data requiresApi="23"/>
+        <fix-data minSdk="fffffffffff00000" requiresApi="ffffffffffc00000"/>
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/muteapp/muteapp/FloatingButtonService.kt"
             line="207"
@@ -117,12 +113,10 @@
             endColumn="47"
             endOffset="7357"/>
         <map>
-            <entry
-                name="minSdk"
-                int="21"/>
-            <entry
-                name="requiresApi"
-                int="23"/>
+            <api-levels id="minSdk"
+                value="fffffffffff00000"/>
+            <api-levels id="requiresApi"
+                value="ffffffffffc00000"/>
             <entry
                 name="message"
                 string="Field requires API level 23 (current min is %1$s): `android.media.AudioManager#ADJUST_UNMUTE`"/>
@@ -133,7 +127,7 @@
         id="InlinedApi"
         severity="warning"
         message="">
-        <fix-data requiresApi="23"/>
+        <fix-data minSdk="fffffffffff00000" requiresApi="ffffffffffc00000"/>
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/muteapp/muteapp/FloatingButtonService.kt"
             line="216"
@@ -143,12 +137,10 @@
             endColumn="45"
             endOffset="7716"/>
         <map>
-            <entry
-                name="minSdk"
-                int="21"/>
-            <entry
-                name="requiresApi"
-                int="23"/>
+            <api-levels id="minSdk"
+                value="fffffffffff00000"/>
+            <api-levels id="requiresApi"
+                value="ffffffffffc00000"/>
             <entry
                 name="message"
                 string="Field requires API level 23 (current min is %1$s): `android.media.AudioManager#ADJUST_MUTE`"/>
@@ -159,7 +151,7 @@
         id="InlinedApi"
         severity="warning"
         message="">
-        <fix-data requiresApi="23"/>
+        <fix-data minSdk="fffffffffff00000" requiresApi="ffffffffffc00000"/>
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/muteapp/muteapp/FloatingButtonService.kt"
             line="221"
@@ -169,12 +161,10 @@
             endColumn="45"
             endOffset="7897"/>
         <map>
-            <entry
-                name="minSdk"
-                int="21"/>
-            <entry
-                name="requiresApi"
-                int="23"/>
+            <api-levels id="minSdk"
+                value="fffffffffff00000"/>
+            <api-levels id="requiresApi"
+                value="ffffffffffc00000"/>
             <entry
                 name="message"
                 string="Field requires API level 23 (current min is %1$s): `android.media.AudioManager#ADJUST_MUTE`"/>
@@ -185,7 +175,7 @@
         id="InlinedApi"
         severity="warning"
         message="">
-        <fix-data requiresApi="23"/>
+        <fix-data minSdk="fffffffffff00000" requiresApi="ffffffffffc00000"/>
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/muteapp/muteapp/FloatingButtonService.kt"
             line="226"
@@ -195,12 +185,10 @@
             endColumn="45"
             endOffset="8086"/>
         <map>
-            <entry
-                name="minSdk"
-                int="21"/>
-            <entry
-                name="requiresApi"
-                int="23"/>
+            <api-levels id="minSdk"
+                value="fffffffffff00000"/>
+            <api-levels id="requiresApi"
+                value="ffffffffffc00000"/>
             <entry
                 name="message"
                 string="Field requires API level 23 (current min is %1$s): `android.media.AudioManager#ADJUST_MUTE`"/>
@@ -211,7 +199,7 @@
         id="InlinedApi"
         severity="warning"
         message="">
-        <fix-data requiresApi="23"/>
+        <fix-data minSdk="fffffffffff00000" requiresApi="ffffffffffc00000"/>
         <location
             file="${:app*debug*sourceProvider*0*javaDir*0}/com/muteapp/muteapp/MainActivity.kt"
             line="150"
@@ -221,12 +209,10 @@
             endColumn="74"
             endOffset="5741"/>
         <map>
-            <entry
-                name="minSdk"
-                int="21"/>
-            <entry
-                name="requiresApi"
-                int="23"/>
+            <api-levels id="minSdk"
+                value="fffffffffff00000"/>
+            <api-levels id="requiresApi"
+                value="ffffffffffc00000"/>
             <entry
                 name="message"
                 string="Field requires API level 23 (current min is %1$s): `android.provider.Settings#ACTION_MANAGE_OVERLAY_PERMISSION`"/>
