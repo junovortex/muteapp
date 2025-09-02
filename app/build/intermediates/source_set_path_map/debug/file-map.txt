@@ -43,8 +43,8 @@ com.muteapp.muteapp-jetified-play-services-auth-20.6.0-41 /Users/vinoth/.gradle/
 com.muteapp.muteapp-google-services-42 /Users/vinoth/muteapp/muteapp/app/build/generated/res/google-services/debug
 com.muteapp.muteapp-pngs-43 /Users/vinoth/muteapp/muteapp/app/build/generated/res/pngs/debug
 com.muteapp.muteapp-resValues-44 /Users/vinoth/muteapp/muteapp/app/build/generated/res/resValues/debug
-com.muteapp.muteapp-packageDebugResources-45 /Users/vinoth/muteapp/muteapp/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.muteapp.muteapp-packageDebugResources-46 /Users/vinoth/muteapp/muteapp/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.muteapp.muteapp-mergeDebugResources-45 /Users/vinoth/muteapp/muteapp/app/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.muteapp.muteapp-mergeDebugResources-46 /Users/vinoth/muteapp/muteapp/app/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
 com.muteapp.muteapp-merged_res-47 /Users/vinoth/muteapp/muteapp/app/build/intermediates/merged_res/debug
 com.muteapp.muteapp-debug-48 /Users/vinoth/muteapp/muteapp/app/src/debug/res
 com.muteapp.muteapp-main-49 /Users/vinoth/muteapp/muteapp/app/src/main/res
