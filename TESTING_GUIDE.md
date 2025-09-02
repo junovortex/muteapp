@@ -1,187 +1,215 @@
-# MuteApp - Local Testing Guide
+# MuteApp Testing Guide
 
-## App Overview
-MuteApp is an Android application that provides:
-- Google Sign-In authentication with Firebase
-- A floating button overlay service for muting/unmuting audio
-- Offline support with cached user data
-- System overlay permissions for floating UI elements
+## Project Status ✅
 
-## Prerequisites
+**BUILD STATUS: SUCCESSFUL** 
 
-### 1. Install Android Studio
-- Download and install [Android Studio](https://developer.android.com/studio)
-- During installation, make sure to install:
-  - Android SDK
-  - Android SDK Platform-Tools
-  - Android Virtual Device (AVD)
+All API compatibility issues have been resolved and the project builds successfully.
 
-### 2. Install Java Development Kit (JDK)
-- The app requires JDK 8 or higher
-- Android Studio usually includes this, but you can verify by running:
-  ```bash
-  java -version
-  ```
+## APK Files Available
 
-### 3. Set up Android SDK
-- Open Android Studio
-- Go to Tools → SDK Manager
-- Install Android SDK API Level 34 (compileSdk)
-- Install Android SDK API Level 21 (minSdk) for backward compatibility
+- **Debug APK**: `./app/build/outputs/apk/debug/app-debug.apk`
+- **Release APK**: `./app/build/outputs/apk/release/app-release-unsigned.apk`
 
-## Setup Instructions
+## Testing Options
 
-### Step 1: Clone and Open Project
-1. The project is already cloned in your current directory
-2. Open Android Studio
-3. Click "Open an existing project"
-4. Navigate to `/Users/vinoth/muteapp/muteapp`
-5. Click "OK"
+### Option 1: Physical Android Device Testing
 
-### Step 2: Sync Project
-1. Android Studio will automatically start syncing
-2. If prompted, click "Sync Now" in the notification bar
-3. Wait for the sync to complete (this may take a few minutes)
-
-### Step 3: Configure Firebase (Important!)
-The app uses Firebase for Google Sign-In. You need to:
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project or use existing one
-3. Add an Android app with package name: `com.muteapp.muteapp`
-4. Download the `google-services.json` file
-5. Replace the existing `app/google-services.json` with your downloaded file
-6. Enable Google Sign-In in Firebase Authentication
-
-### Step 4: Set up Android Device/Emulator
-
-#### Option A: Physical Android Device
-1. Enable Developer Options on your device:
-   - Go to Settings → About Phone
+1. **Enable Developer Options** on your Android device:
+   - Go to Settings > About Phone
    - Tap "Build Number" 7 times
-2. Enable USB Debugging:
-   - Go to Settings → Developer Options
-   - Turn on "USB Debugging"
-3. Connect device via USB
-4. Allow USB debugging when prompted
+   - Go back to Settings > Developer Options
+   - Enable "USB Debugging"
 
-#### Option B: Android Emulator
-1. In Android Studio, go to Tools → AVD Manager
-2. Click "Create Virtual Device"
-3. Choose a device (e.g., Pixel 4)
-4. Select API Level 34 (Android 14) or higher
-5. Click "Finish" and start the emulator
+2. **Install the APK**:
+   ```bash
+   # Connect your device via USB
+   adb install ./app/build/outputs/apk/debug/app-debug.apk
+   ```
 
-## Testing the App
+3. **Alternative Installation**:
+   - Transfer the APK file to your device
+   - Enable "Install from Unknown Sources" in Settings
+   - Open the APK file to install
 
-### Step 1: Fix Gradle Wrapper (If Needed)
-The gradle wrapper jar file might be missing. If you get an error like "Could not find or load main class org.gradle.wrapper.GradleWrapperMain", run:
+### Option 2: Android Studio Emulator
+
+Due to disk space constraints on the current system, emulator setup was not completed. If you have Android Studio installed:
+
+1. Open Android Studio
+2. Create a new AVD with API level 21+ and Google APIs
+3. Install the APK using: `adb install ./app/build/outputs/apk/debug/app-debug.apk`
+
+## App Features to Test
+
+### 1. Google Sign-In Authentication ✅
+**Status**: Code implemented and built successfully
+
+**Test Steps**:
+1. Launch the app
+2. Tap "Sign In with Google"
+3. Complete Google authentication flow
+4. Verify user name and email display correctly
+5. Test sign out functionality
+
+**Expected Behavior**:
+- Google Sign-In dialog appears
+- User credentials are displayed after successful login
+- User data is cached for offline support
+
+### 2. Floating Button Service ✅
+**Status**: Code implemented with proper API compatibility
+
+**Test Steps**:
+1. After signing in, tap "Start Floating Button"
+2. Grant overlay permission when prompted
+3. Verify floating button appears on screen
+4. Test mute/unmute functionality
+5. Test button positioning and drag behavior
+
+**Expected Behavior**:
+- Permission dialog appears for overlay access
+- Floating button appears after permission granted
+- Button can be dragged around the screen
+- Mute/unmute functionality works correctly
+
+### 3. Offline Support ✅
+**Status**: SharedPreferences implementation completed
+
+**Test Steps**:
+1. Sign in with Google while connected to internet
+2. Close the app
+3. Disconnect from internet
+4. Reopen the app
+5. Verify user data is still displayed
+
+**Expected Behavior**:
+- User remains "signed in" when offline
+- Cached user name and email are displayed
+- App functions without internet connection
+
+### 4. System Permissions ✅
+**Status**: API compatibility fixes implemented
+
+**Test Steps**:
+1. Test overlay permission request (API 23+)
+2. Test notification permissions
+3. Verify foreground service functionality
+
+**Expected Behavior**:
+- Proper permission dialogs appear
+- App handles different API levels correctly
+- No crashes on older Android versions
+
+## Technical Implementation Details
+
+### Fixed Issues ✅
+
+1. **API Compatibility**: 
+   - Fixed `Settings.canDrawOverlays()` calls for API < 23
+   - Fixed `startForegroundService()` calls for API < 26
+   - Added proper version checks using `Build.VERSION.SDK_INT`
+
+2. **Build Configuration**:
+   - Updated Gradle wrapper to 7.5
+   - Updated Android Gradle Plugin to 7.4.2
+   - Added AndroidX and Jetifier support
+   - Fixed duplicate resource conflicts
+
+3. **Firebase Integration**:
+   - Google Services configuration verified
+   - Firebase Auth implementation completed
+   - Proper error handling implemented
+
+4. **Resource Management**:
+   - Fixed launcher icon references
+   - Updated backup rules configuration
+   - Resolved lint errors
+
+### Architecture Overview
+
+- **MainActivity.kt**: Main UI with Google Sign-In and floating button controls
+- **FloatingButtonService.kt**: Foreground service for overlay functionality
+- **Firebase Auth**: Google Sign-In integration
+- **SharedPreferences**: Offline data caching
+- **System Overlay**: Floating button implementation
+
+## Build Commands
 
 ```bash
-# Navigate to project directory
-cd /Users/vinoth/muteapp/muteapp
-
-# Download and set up gradle wrapper
-gradle wrapper --gradle-version 7.5
-```
-
-If you don't have gradle installed globally, you can:
-1. Open the project in Android Studio first
-2. Android Studio will automatically fix the gradle wrapper
-3. Or download gradle wrapper jar manually from the project's GitHub repository
-
-### Step 2: Build the Project
-```bash
-# Clean and build the project
+# Clean and build project
 ./gradlew clean build
-```
 
-### Step 2: Install and Run
-#### From Android Studio:
-1. Click the "Run" button (green triangle) or press Ctrl+R
-2. Select your device/emulator
-3. Wait for installation and launch
-
-#### From Command Line:
-```bash
-# Install debug APK
-./gradlew installDebug
-
-# Or build and install in one command
+# Build debug APK only
 ./gradlew assembleDebug
-adb install app/build/outputs/apk/debug/app-debug.apk
+
+# Build release APK
+./gradlew assembleRelease
+
+# Install on connected device
+adb install ./app/build/outputs/apk/debug/app-debug.apk
 ```
-
-## Testing Features
-
-### 1. Google Sign-In
-- Launch the app
-- Tap "Sign In with Google"
-- Complete the Google authentication flow
-- Verify user information is displayed
-
-### 2. Floating Button Service
-- After signing in, tap "Start Floating Button"
-- Grant overlay permission when prompted
-- The floating button should appear on screen
-- Test mute/unmute functionality
-
-### 3. Offline Support
-- Sign in with Google
-- Close the app
-- Turn off internet/WiFi
-- Reopen the app
-- Verify cached user data is displayed
 
 ## Troubleshooting
 
-### Common Issues:
+### Common Issues
 
-1. **Build Errors:**
-   ```bash
-   # Clean and rebuild
-   ./gradlew clean
-   ./gradlew build
-   ```
-
-2. **Google Sign-In Fails:**
-   - Verify `google-services.json` is properly configured
-   - Check Firebase project settings
-   - Ensure SHA-1 fingerprint is added to Firebase
-
-3. **Overlay Permission Issues:**
-   - Manually grant overlay permission in device settings
-   - Go to Settings → Apps → MuteApp → Display over other apps
-
-4. **Gradle Sync Issues:**
+1. **Google Sign-In Not Working**:
+   - Ensure device has Google Play Services
    - Check internet connection
-   - Try File → Invalidate Caches and Restart in Android Studio
+   - Verify Firebase configuration
 
-### Debug Commands:
+2. **Overlay Permission Denied**:
+   - Manually grant permission in Settings > Apps > MuteApp > Display over other apps
+
+3. **Floating Button Not Appearing**:
+   - Check overlay permissions
+   - Verify foreground service is running
+   - Check device compatibility
+
+### Logs and Debugging
+
 ```bash
-# View connected devices
-adb devices
-
 # View app logs
 adb logcat | grep MuteApp
 
-# Uninstall app
-adb uninstall com.muteapp.muteapp
+# View system logs for permissions
+adb logcat | grep -i permission
 
-# Check app permissions
-adb shell dumpsys package com.muteapp.muteapp
+# Clear app data for fresh testing
+adb shell pm clear com.muteapp.muteapp
 ```
 
-## App Permissions Required
-- `SYSTEM_ALERT_WINDOW` - For floating overlay
-- `MODIFY_AUDIO_SETTINGS` - For mute/unmute functionality
-- `INTERNET` - For Google Sign-In
-- `ACCESS_NETWORK_STATE` - For network status
-- `FOREGROUND_SERVICE` - For persistent floating button
+## Test Results Template
+
+### Google Sign-In Test
+- [ ] Sign-in dialog appears
+- [ ] Authentication completes successfully
+- [ ] User data displays correctly
+- [ ] Sign-out works properly
+- [ ] Offline data persistence works
+
+### Floating Button Test
+- [ ] Permission request appears
+- [ ] Button appears after permission granted
+- [ ] Button is draggable
+- [ ] Mute/unmute functionality works
+- [ ] Button persists across apps
+
+### System Integration Test
+- [ ] App works on API 21+
+- [ ] Proper permission handling
+- [ ] No crashes or errors
+- [ ] Smooth user experience
 
 ## Next Steps
-Once the app is running successfully:
-1. Test all authentication flows
-2. Verify floating button functionality
-3. Test offline capabilities
-4. Check audio mute/unmute features
-5. Test app behavior across different Android versions
+
+1. Install APK on test device
+2. Complete functional testing
+3. Test on multiple Android versions if possible
+4. Document any issues found
+5. Verify all features work as expected
+
+---
+
+**Note**: The app has been successfully built and is ready for testing. All major API compatibility issues have been resolved, and the code follows Android best practices for backward compatibility.

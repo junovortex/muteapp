@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.4.2" type="partial_results">
+    <map id="UnusedResources">
+        <location id="R.string.sign_in_with_google"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="3"
+            column="13"
+            startOffset="69"
+            endLine="3"
+            endColumn="39"
+            endOffset="95"/>
+        <location id="R.string.grant_permission"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="9"
+            column="13"
+            startOffset="497"
+            endLine="9"
+            endColumn="36"
+            endOffset="520"/>
+        <location id="R.color.purple_200"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/colors.xml"
+            line="3"
+            column="12"
+            startOffset="62"
+            endLine="3"
+            endColumn="29"
+            endOffset="79"/>
+        <entry
+            name="model"
+            string="attr[colorPrimaryVariant(R)],color[purple_200(D),mute_button_inactive(U),mute_button_active(U),black(U),teal_200(U),white(U),floating_button_background(U),teal_700(U),purple_700(U),purple_500(U)],id[floating_mute_button(U),user_email(D),user_name(D),sign_in_button(D),sign_out_button(D),description_text(U),app_logo(U),start_floating_button(D),signed_in_layout(D),welcome_text(U)],layout[floating_button_layout(U),activity_main(U)],string[please_sign_in(U),overlay_permission_required(U),permission_denied(U),sign_in_with_google(D),triple_click_to_close(D),grant_permission(D),mute_button_description(U),default_web_client_id(R),app_name(U),volume_muted(U),volume_unmuted(U),welcome(U),sign_out(U)],style[Theme_MuteApp(U),Widget_Material3_Button_OutlinedButton(R),Theme_Material3_DayNight(R)],xml[data_extraction_rules(U),backup_rules(U)];15^7^3^1d,16^1f^22^11^17^14^10^23^25,24^26^a^9^6^5^8^4^0;;;"/>
+        <location id="R.string.triple_click_to_close"
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/strings.xml"
+            line="13"
+            column="13"
+            startOffset="784"
+            endLine="13"
+            endColumn="41"
+            endOffset="812"/>
+    </map>
+
+</incidents>

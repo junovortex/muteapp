@@ -11,5 +11,4 @@
     <string name="volume_muted">Volume muted</string>
     <string name="volume_unmuted">Volume unmuted</string>
     <string name="triple_click_to_close">Triple click to close app</string>
-    <string name="default_web_client_id">your_web_client_id_here</string>
 </resources>

@@ -1,0 +1,724 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/vinoth/.gradle/caches/transforms-3/fb22014980ff5a4516374ca20e23ade4/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.9.0] /Users/vinoth/.gradle/caches/transforms-3/f2b18f3dedc93492f18cc1693b956ad2/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinoth/.gradle/caches/transforms-3/f1b7ff4a7df2fadb1b32b3ec6175739a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/vinoth/.gradle/caches/transforms-3/6ecf4fab55edefdd1b3844c0e63a51d1/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/dd106d5b3cdef3c767c9415b03784217/transformed/jetified-preference-ktx-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/a40134386aa3b1792d409b18a8898d8f/transformed/preference-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/vinoth/.gradle/caches/transforms-3/bdeda1861c24f334f42cde882e50a73c/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/vinoth/.gradle/caches/transforms-3/63ed20488350ae4dc27e74afa9c5c916/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/746e4a00c0441cb13b9e30998aa1bf95/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/1a7feaf2f9216de31bc3e7c1344f1860/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/vinoth/.gradle/caches/transforms-3/dc5894791bc58668a1fbdf9d16941d26/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/vinoth/.gradle/caches/transforms-3/13ac231e99bba02d9fb2ff688bafb944/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/vinoth/.gradle/caches/transforms-3/face21f00fec185b19bcf42c2ddbb703/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/vinoth/.gradle/caches/transforms-3/cb93ca1de76bac784cd220eecd1716e4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/3340c0e17e0f3fea03075b48d6531791/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/vinoth/.gradle/caches/transforms-3/7cb54e7026dc473d54f8dfae6c333fa0/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/9b05f64b167b11dc194e26b57965fe26/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/8b05e800c242bae123687bd471ff96bd/transformed/jetified-firebase-analytics-21.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/f9b7d336a2562500cab47f7fd23164cd/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/vinoth/.gradle/caches/transforms-3/4b83896ed936924024695ba0d075a26e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/5e881a5194bb8de29e8a9912a0783417/transformed/jetified-play-services-measurement-sdk-21.1.1/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/vinoth/.gradle/caches/transforms-3/242c3796a81d717c9f8e605648bc812f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/976476bbc92e62a62a3be39d31a5790e/transformed/jetified-play-services-measurement-base-21.1.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/vinoth/.gradle/caches/transforms-3/786b70e02a430b6ad13b46866345df07/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/vinoth/.gradle/caches/transforms-3/b479f88fbba1ccdb43d73ca16b6b8e4f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/vinoth/.gradle/caches/transforms-3/4285359471467bb152a63cde00294553/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/vinoth/.gradle/caches/transforms-3/ed310c5a53d18559e6441353b6c21404/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/vinoth/.gradle/caches/transforms-3/af501dbbe4b93f2c9a6e0a6318cc1d3c/transformed/jetified-activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/94ba34226c93aa7aed8896aeeaca09db/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/ecfd349439ef605a31ec191bea39d34a/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/e9073409be1ed37698bfdcfc64d6428e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/f6bec992dcdcfbd7efd482357775e863/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/59dab1d0143d8868955d71e5dcafefd6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/3a485017abaa8f4e2738e5f42dabde9f/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/edc7bf0e2bccf60b356b311fae61d917/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2d7cef44a4bd3679694499691303263e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/e9314d6be0010571e15e7cb4c46f37b4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/720624e65e4b22d4d091f9e396584244/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/7ac5d313d969b08836158f76752fc060/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/0c23bedab3f256f9b610c4b6ba7ba9b4/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/a460a4de7dbe0f50a4f49c7c7f42a454/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/a3b8799094befe2e061e5bf1fe6b37e8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/9e47024a5e5879352b75ab0cc84f9ac3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/cac3a11e30179c7754fb057a7e79fd10/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/35142863225d58def6aef3ee4e5022e8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/vinoth/.gradle/caches/transforms-3/430efccb1baa9643b412d8bf176f8f7c/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/a62f78411389c3c967f4e9dff912a62a/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/597aeddcf383517abae43cff51784a03/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/5e2e2bc33f7cbd216914b0bc0755cee8/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/04234892ca9fbae40c542b86af990666/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/vinoth/.gradle/caches/transforms-3/38e47d18aac9df8281921a432ac2a914/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/e60bc7af368f27c61b4b6af53bd07395/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6c63540c4759b1dbc1c89f3d106b376f/transformed/jetified-lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/132ebf3691ce47316b5acd75d0ade43d/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/6155696cb3171122e49f84998eea6c24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/533c42a084ed8cb99f1c5ea4dbcb7604/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/91a3550052a5ebd68db0624facfef9fc/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/vinoth/.gradle/caches/transforms-3/03516af761d47c1032c62d706033be96/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/d4669125df5a9b0df56857d4d14ca199/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/6ef899ea058f141ea61dc45378368ab1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/c4dc51d42c0827f36788abc89a5664eb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/fbbf96a6936f3a949fac0d0ff55a88ab/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vinoth/.gradle/caches/transforms-3/a1fde54be6ff0cf77227515c9cdde9ec/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/26a9064471999e356df5b2356aff2360/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/4f089b84862244628fccd44dc8717130/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/a5744830576f4888f407023325b36e86/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+	package
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:1-49:12
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:6:22-75
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:9:22-77
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:12:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/vinoth/.gradle/caches/transforms-3/cb93ca1de76bac784cd220eecd1716e4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/vinoth/.gradle/caches/transforms-3/cb93ca1de76bac784cd220eecd1716e4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:12:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/vinoth/.gradle/caches/transforms-3/cb93ca1de76bac784cd220eecd1716e4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/vinoth/.gradle/caches/transforms-3/cb93ca1de76bac784cd220eecd1716e4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:16:5-77
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:16:22-74
+application
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:18:5-47:19
+MERGED from [com.google.android.material:material:1.9.0] /Users/vinoth/.gradle/caches/transforms-3/f2b18f3dedc93492f18cc1693b956ad2/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/vinoth/.gradle/caches/transforms-3/f2b18f3dedc93492f18cc1693b956ad2/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinoth/.gradle/caches/transforms-3/f1b7ff4a7df2fadb1b32b3ec6175739a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinoth/.gradle/caches/transforms-3/f1b7ff4a7df2fadb1b32b3ec6175739a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/vinoth/.gradle/caches/transforms-3/13ac231e99bba02d9fb2ff688bafb944/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/vinoth/.gradle/caches/transforms-3/13ac231e99bba02d9fb2ff688bafb944/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/vinoth/.gradle/caches/transforms-3/face21f00fec185b19bcf42c2ddbb703/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/vinoth/.gradle/caches/transforms-3/face21f00fec185b19bcf42c2ddbb703/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/3340c0e17e0f3fea03075b48d6531791/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/3340c0e17e0f3fea03075b48d6531791/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/vinoth/.gradle/caches/transforms-3/7cb54e7026dc473d54f8dfae6c333fa0/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/vinoth/.gradle/caches/transforms-3/7cb54e7026dc473d54f8dfae6c333fa0/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/9b05f64b167b11dc194e26b57965fe26/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/9b05f64b167b11dc194e26b57965fe26/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/8b05e800c242bae123687bd471ff96bd/transformed/jetified-firebase-analytics-21.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/8b05e800c242bae123687bd471ff96bd/transformed/jetified-firebase-analytics-21.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/vinoth/.gradle/caches/transforms-3/4b83896ed936924024695ba0d075a26e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/vinoth/.gradle/caches/transforms-3/4b83896ed936924024695ba0d075a26e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/5e881a5194bb8de29e8a9912a0783417/transformed/jetified-play-services-measurement-sdk-21.1.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/5e881a5194bb8de29e8a9912a0783417/transformed/jetified-play-services-measurement-sdk-21.1.1/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/vinoth/.gradle/caches/transforms-3/242c3796a81d717c9f8e605648bc812f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/vinoth/.gradle/caches/transforms-3/242c3796a81d717c9f8e605648bc812f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/976476bbc92e62a62a3be39d31a5790e/transformed/jetified-play-services-measurement-base-21.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/976476bbc92e62a62a3be39d31a5790e/transformed/jetified-play-services-measurement-base-21.1.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/vinoth/.gradle/caches/transforms-3/786b70e02a430b6ad13b46866345df07/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/vinoth/.gradle/caches/transforms-3/786b70e02a430b6ad13b46866345df07/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/vinoth/.gradle/caches/transforms-3/b479f88fbba1ccdb43d73ca16b6b8e4f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/vinoth/.gradle/caches/transforms-3/b479f88fbba1ccdb43d73ca16b6b8e4f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/6ef899ea058f141ea61dc45378368ab1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/6ef899ea058f141ea61dc45378368ab1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/c4dc51d42c0827f36788abc89a5664eb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/c4dc51d42c0827f36788abc89a5664eb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:23:9-41
+	android:fullBackupContent
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:21:9-54
+	android:roundIcon
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:24:9-63
+	tools:targetApi
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:27:9-29
+	android:icon
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:22:9-58
+	android:allowBackup
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:19:9-35
+	android:theme
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:26:9-45
+	android:dataExtractionRules
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:20:9-65
+activity#com.muteapp.muteapp.MainActivity
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:30:9-38:20
+	android:exported
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:33:13-49
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:36:17-77
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:36:27-74
+service#com.muteapp.muteapp.FloatingButtonService
+ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:41:9-45:63
+	android:enabled
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:43:13-35
+	android:exported
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:44:13-37
+	android:foregroundServiceType
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:45:13-60
+	android:name
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml:42:13-50
+uses-sdk
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/vinoth/.gradle/caches/transforms-3/fb22014980ff5a4516374ca20e23ade4/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:7.4.2] /Users/vinoth/.gradle/caches/transforms-3/fb22014980ff5a4516374ca20e23ade4/transformed/jetified-viewbinding-7.4.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.9.0] /Users/vinoth/.gradle/caches/transforms-3/f2b18f3dedc93492f18cc1693b956ad2/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/vinoth/.gradle/caches/transforms-3/f2b18f3dedc93492f18cc1693b956ad2/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinoth/.gradle/caches/transforms-3/f1b7ff4a7df2fadb1b32b3ec6175739a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/vinoth/.gradle/caches/transforms-3/f1b7ff4a7df2fadb1b32b3ec6175739a/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/vinoth/.gradle/caches/transforms-3/6ecf4fab55edefdd1b3844c0e63a51d1/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/vinoth/.gradle/caches/transforms-3/6ecf4fab55edefdd1b3844c0e63a51d1/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/dd106d5b3cdef3c767c9415b03784217/transformed/jetified-preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/dd106d5b3cdef3c767c9415b03784217/transformed/jetified-preference-ktx-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/a40134386aa3b1792d409b18a8898d8f/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/a40134386aa3b1792d409b18a8898d8f/transformed/preference-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/vinoth/.gradle/caches/transforms-3/bdeda1861c24f334f42cde882e50a73c/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/vinoth/.gradle/caches/transforms-3/bdeda1861c24f334f42cde882e50a73c/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/vinoth/.gradle/caches/transforms-3/63ed20488350ae4dc27e74afa9c5c916/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.3.6] /Users/vinoth/.gradle/caches/transforms-3/63ed20488350ae4dc27e74afa9c5c916/transformed/jetified-fragment-ktx-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:21:5-23:64
+MERGED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:21:5-23:64
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/746e4a00c0441cb13b9e30998aa1bf95/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/746e4a00c0441cb13b9e30998aa1bf95/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/1a7feaf2f9216de31bc3e7c1344f1860/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/1a7feaf2f9216de31bc3e7c1344f1860/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/vinoth/.gradle/caches/transforms-3/dc5894791bc58668a1fbdf9d16941d26/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/vinoth/.gradle/caches/transforms-3/dc5894791bc58668a1fbdf9d16941d26/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/vinoth/.gradle/caches/transforms-3/13ac231e99bba02d9fb2ff688bafb944/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/vinoth/.gradle/caches/transforms-3/13ac231e99bba02d9fb2ff688bafb944/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/vinoth/.gradle/caches/transforms-3/face21f00fec185b19bcf42c2ddbb703/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/vinoth/.gradle/caches/transforms-3/face21f00fec185b19bcf42c2ddbb703/transformed/jetified-firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/vinoth/.gradle/caches/transforms-3/cb93ca1de76bac784cd220eecd1716e4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/vinoth/.gradle/caches/transforms-3/cb93ca1de76bac784cd220eecd1716e4/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/3340c0e17e0f3fea03075b48d6531791/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/3340c0e17e0f3fea03075b48d6531791/transformed/jetified-integrity-1.1.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/vinoth/.gradle/caches/transforms-3/7cb54e7026dc473d54f8dfae6c333fa0/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/vinoth/.gradle/caches/transforms-3/7cb54e7026dc473d54f8dfae6c333fa0/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/9b05f64b167b11dc194e26b57965fe26/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/9b05f64b167b11dc194e26b57965fe26/transformed/jetified-firebase-core-21.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/8b05e800c242bae123687bd471ff96bd/transformed/jetified-firebase-analytics-21.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/8b05e800c242bae123687bd471ff96bd/transformed/jetified-firebase-analytics-21.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/f9b7d336a2562500cab47f7fd23164cd/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/f9b7d336a2562500cab47f7fd23164cd/transformed/jetified-firebase-installations-interop-17.0.1/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/vinoth/.gradle/caches/transforms-3/4b83896ed936924024695ba0d075a26e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/vinoth/.gradle/caches/transforms-3/4b83896ed936924024695ba0d075a26e/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/5e881a5194bb8de29e8a9912a0783417/transformed/jetified-play-services-measurement-sdk-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/5e881a5194bb8de29e8a9912a0783417/transformed/jetified-play-services-measurement-sdk-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/vinoth/.gradle/caches/transforms-3/242c3796a81d717c9f8e605648bc812f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/vinoth/.gradle/caches/transforms-3/242c3796a81d717c9f8e605648bc812f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/976476bbc92e62a62a3be39d31a5790e/transformed/jetified-play-services-measurement-base-21.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/976476bbc92e62a62a3be39d31a5790e/transformed/jetified-play-services-measurement-base-21.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/vinoth/.gradle/caches/transforms-3/786b70e02a430b6ad13b46866345df07/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/vinoth/.gradle/caches/transforms-3/786b70e02a430b6ad13b46866345df07/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/vinoth/.gradle/caches/transforms-3/b479f88fbba1ccdb43d73ca16b6b8e4f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/vinoth/.gradle/caches/transforms-3/b479f88fbba1ccdb43d73ca16b6b8e4f/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/vinoth/.gradle/caches/transforms-3/4285359471467bb152a63cde00294553/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/vinoth/.gradle/caches/transforms-3/4285359471467bb152a63cde00294553/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/vinoth/.gradle/caches/transforms-3/ed310c5a53d18559e6441353b6c21404/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.0] /Users/vinoth/.gradle/caches/transforms-3/ed310c5a53d18559e6441353b6c21404/transformed/jetified-activity-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/vinoth/.gradle/caches/transforms-3/af501dbbe4b93f2c9a6e0a6318cc1d3c/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/vinoth/.gradle/caches/transforms-3/af501dbbe4b93f2c9a6e0a6318cc1d3c/transformed/jetified-activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/94ba34226c93aa7aed8896aeeaca09db/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/94ba34226c93aa7aed8896aeeaca09db/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/ecfd349439ef605a31ec191bea39d34a/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/ecfd349439ef605a31ec191bea39d34a/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/e9073409be1ed37698bfdcfc64d6428e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vinoth/.gradle/caches/transforms-3/e9073409be1ed37698bfdcfc64d6428e/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/f6bec992dcdcfbd7efd482357775e863/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/f6bec992dcdcfbd7efd482357775e863/transformed/jetified-lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/59dab1d0143d8868955d71e5dcafefd6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/59dab1d0143d8868955d71e5dcafefd6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/3a485017abaa8f4e2738e5f42dabde9f/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/3a485017abaa8f4e2738e5f42dabde9f/transformed/jetified-lifecycle-livedata-core-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/edc7bf0e2bccf60b356b311fae61d917/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/edc7bf0e2bccf60b356b311fae61d917/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2d7cef44a4bd3679694499691303263e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2d7cef44a4bd3679694499691303263e/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/e9314d6be0010571e15e7cb4c46f37b4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/e9314d6be0010571e15e7cb4c46f37b4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/720624e65e4b22d4d091f9e396584244/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/720624e65e4b22d4d091f9e396584244/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/7ac5d313d969b08836158f76752fc060/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/7ac5d313d969b08836158f76752fc060/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/0c23bedab3f256f9b610c4b6ba7ba9b4/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/0c23bedab3f256f9b610c4b6ba7ba9b4/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/a460a4de7dbe0f50a4f49c7c7f42a454/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/a460a4de7dbe0f50a4f49c7c7f42a454/transformed/jetified-core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/a3b8799094befe2e061e5bf1fe6b37e8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/a3b8799094befe2e061e5bf1fe6b37e8/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/9e47024a5e5879352b75ab0cc84f9ac3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/9e47024a5e5879352b75ab0cc84f9ac3/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/cac3a11e30179c7754fb057a7e79fd10/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/cac3a11e30179c7754fb057a7e79fd10/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/35142863225d58def6aef3ee4e5022e8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/35142863225d58def6aef3ee4e5022e8/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/vinoth/.gradle/caches/transforms-3/430efccb1baa9643b412d8bf176f8f7c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/vinoth/.gradle/caches/transforms-3/430efccb1baa9643b412d8bf176f8f7c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/a62f78411389c3c967f4e9dff912a62a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/a62f78411389c3c967f4e9dff912a62a/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/597aeddcf383517abae43cff51784a03/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/597aeddcf383517abae43cff51784a03/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/5e2e2bc33f7cbd216914b0bc0755cee8/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/5e2e2bc33f7cbd216914b0bc0755cee8/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/04234892ca9fbae40c542b86af990666/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/vinoth/.gradle/caches/transforms-3/04234892ca9fbae40c542b86af990666/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/vinoth/.gradle/caches/transforms-3/38e47d18aac9df8281921a432ac2a914/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/vinoth/.gradle/caches/transforms-3/38e47d18aac9df8281921a432ac2a914/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/e60bc7af368f27c61b4b6af53bd07395/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/e60bc7af368f27c61b4b6af53bd07395/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6c63540c4759b1dbc1c89f3d106b376f/transformed/jetified-lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6c63540c4759b1dbc1c89f3d106b376f/transformed/jetified-lifecycle-livedata-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/132ebf3691ce47316b5acd75d0ade43d/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/132ebf3691ce47316b5acd75d0ade43d/transformed/jetified-lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/6155696cb3171122e49f84998eea6c24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/6155696cb3171122e49f84998eea6c24/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/533c42a084ed8cb99f1c5ea4dbcb7604/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/533c42a084ed8cb99f1c5ea4dbcb7604/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/91a3550052a5ebd68db0624facfef9fc/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/91a3550052a5ebd68db0624facfef9fc/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/vinoth/.gradle/caches/transforms-3/03516af761d47c1032c62d706033be96/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:17.1.0] /Users/vinoth/.gradle/caches/transforms-3/03516af761d47c1032c62d706033be96/transformed/jetified-firebase-components-17.1.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/d4669125df5a9b0df56857d4d14ca199/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/d4669125df5a9b0df56857d4d14ca199/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/6ef899ea058f141ea61dc45378368ab1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/6ef899ea058f141ea61dc45378368ab1/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/c4dc51d42c0827f36788abc89a5664eb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/c4dc51d42c0827f36788abc89a5664eb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/fbbf96a6936f3a949fac0d0ff55a88ab/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/fbbf96a6936f3a949fac0d0ff55a88ab/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vinoth/.gradle/caches/transforms-3/a1fde54be6ff0cf77227515c9cdde9ec/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vinoth/.gradle/caches/transforms-3/a1fde54be6ff0cf77227515c9cdde9ec/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/26a9064471999e356df5b2356aff2360/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/26a9064471999e356df5b2356aff2360/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/4f089b84862244628fccd44dc8717130/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/4f089b84862244628fccd44dc8717130/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/a5744830576f4888f407023325b36e86/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/a5744830576f4888f407023325b36e86/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:23:9-61
+	android:targetSdkVersion
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vinoth/muteapp/muteapp/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/vinoth/.gradle/caches/transforms-3/f37bc4a93f22794cd0715ac3d96d36b3/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:22.1.1] /Users/vinoth/.gradle/caches/transforms-3/b4546ee0bb13c35d2773518996932bf1/transformed/jetified-firebase-auth-22.1.1/AndroidManifest.xml:70:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] /Users/vinoth/.gradle/caches/transforms-3/a90fffcac9cf440a7fae000b952546ce/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/vinoth/.gradle/caches/transforms-3/242c3796a81d717c9f8e605648bc812f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/vinoth/.gradle/caches/transforms-3/242c3796a81d717c9f8e605648bc812f/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/e611da7548d1278dfff1be137e3ab0f1/transformed/jetified-play-services-measurement-sdk-api-21.1.1/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/437269bd0eb73d8c568390509d14d0c9/transformed/jetified-play-services-measurement-api-21.1.1/AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] /Users/vinoth/.gradle/caches/transforms-3/92a53e9817d3cd8856cf0a9215b538a2/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.3.2] /Users/vinoth/.gradle/caches/transforms-3/5299c4d91826c20af25ae73c5db91e1a/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/1d4da08dbd9c1d0d84d582918d120a8f/transformed/jetified-play-services-measurement-impl-21.1.1/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.1] /Users/vinoth/.gradle/caches/transforms-3/833bf8253dcffd662d1bf88c154fe791/transformed/jetified-play-services-measurement-21.1.1/AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/vinoth/.gradle/caches/transforms-3/1119e47310999fdb68787379aaa3c940/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/c4dc51d42c0827f36788abc89a5664eb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vinoth/.gradle/caches/transforms-3/c4dc51d42c0827f36788abc89a5664eb/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/vinoth/.gradle/caches/transforms-3/d0b7732073d008abcac63603225a22ae/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/vinoth/.gradle/caches/transforms-3/6e8dc522f0f89fe53db6a447f359baff/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/vinoth/.gradle/caches/transforms-3/2f27c6015f1e039d6859e92a78404a46/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+permission#com.muteapp.muteapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+uses-permission#com.muteapp.muteapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vinoth/.gradle/caches/transforms-3/16a3467ae280ecb884a199c115694d15/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vinoth/.gradle/caches/transforms-3/10ce0eb223c39382b5b505bf739101d2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92

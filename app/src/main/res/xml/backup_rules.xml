@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <full-backup-content>
-    <!-- Exclude SharedPreferences that contain sensitive data -->
+    <!-- Include all SharedPreferences first -->
+    <include domain="sharedpref" path="." />
+    
+    <!-- Then exclude SharedPreferences that contain sensitive data -->
     <exclude domain="sharedpref" path="MuteAppPrefs.xml" />
     
     <!-- Include other app data -->

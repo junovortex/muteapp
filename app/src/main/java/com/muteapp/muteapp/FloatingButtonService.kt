@@ -71,7 +71,7 @@ class FloatingButtonService : Service() {
         return NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("MuteApp")
             .setContentText("Floating mute button is active")
-            .setSmallIcon(R.mipmap.ic_launcher)
+            .setSmallIcon(android.R.drawable.sym_def_app_icon)
             .setPriority(NotificationCompat.PRIORITY_LOW)
             .setOngoing(true)
             .build()
@@ -240,10 +240,10 @@ class FloatingButtonService : Service() {
     private fun updateButtonAppearance() {
         if (isMuted) {
             muteButton.setImageResource(android.R.drawable.ic_lock_silent_mode)
-            muteButton.setBackgroundColor(getColor(R.color.mute_button_inactive))
+            muteButton.setBackgroundColor(androidx.core.content.ContextCompat.getColor(this, R.color.mute_button_inactive))
         } else {
             muteButton.setImageResource(android.R.drawable.ic_lock_silent_mode_off)
-            muteButton.setBackgroundColor(getColor(R.color.mute_button_active))
+            muteButton.setBackgroundColor(androidx.core.content.ContextCompat.getColor(this, R.color.mute_button_active))
         }
     }
     

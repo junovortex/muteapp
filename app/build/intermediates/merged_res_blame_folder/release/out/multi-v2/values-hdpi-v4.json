@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.muteapp.muteapp-mergeReleaseResources-46:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/vinoth/.gradle/caches/transforms-3/bdeda1861c24f334f42cde882e50a73c/transformed/appcompat-1.6.1/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

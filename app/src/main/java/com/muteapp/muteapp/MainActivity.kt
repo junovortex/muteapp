@@ -2,6 +2,7 @@ package com.muteapp.muteapp
 
 import android.content.Intent
 import android.net.Uri
+import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
@@ -41,7 +42,7 @@ class MainActivity : AppCompatActivity() {
     private val overlayPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { _ ->
-        if (Settings.canDrawOverlays(this)) {
+        if (canDrawOverlays()) {
             startFloatingButtonService()
         } else {
             Toast.makeText(this, getString(R.string.permission_denied), Toast.LENGTH_LONG).show()
@@ -142,7 +143,7 @@ class MainActivity : AppCompatActivity() {
     }
     
     private fun checkOverlayPermission() {
-        if (Settings.canDrawOverlays(this)) {
+        if (canDrawOverlays()) {
             startFloatingButtonService()
         } else {
             Toast.makeText(this, getString(R.string.overlay_permission_required), Toast.LENGTH_LONG).show()
@@ -151,9 +152,21 @@ class MainActivity : AppCompatActivity() {
         }
     }
     
+    private fun canDrawOverlays(): Boolean {
+        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            Settings.canDrawOverlays(this)
+        } else {
+            true // Permission not required for API < 23
+        }
+    }
+    
     private fun startFloatingButtonService() {
         val serviceIntent = Intent(this, FloatingButtonService::class.java)
-        startForegroundService(serviceIntent)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent)
+        } else {
+            startService(serviceIntent)
+        }
         Toast.makeText(this, "Floating button started", Toast.LENGTH_SHORT).show()
         finish() // Close the main activity
     }
